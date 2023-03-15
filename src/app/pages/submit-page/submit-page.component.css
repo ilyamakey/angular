@@ -1,0 +1,43 @@
+.submit {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100vh;
+    background-color: #4398e7;
+}
+  
+.submit__caption {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 1.8em;
+    line-height: 1.5em;
+    text-align: center;
+    color: #fff;
+}
+
+.submit__camera {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
+
+.submit__button {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px auto;
+    width: 60%;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #49556F;
+    opacity: 0.9;
+}
+
+.submit__button:hover {
+    opacity: 1;
+}

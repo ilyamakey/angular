@@ -1,0 +1,45 @@
+.first-screen {
+    padding-top: 130px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 100vh;
+    background-image: url("../../../assets/Img/clouds.png");
+    background-color: #fff;
+    background-position: unset;
+    background-size: cover;
+}
+
+.first-screen__caption {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: -1.5px;
+    font-weight: 600;
+    color: #D6DBFA;
+    text-align: center;
+}
+  
+.first-screen__form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+.sign-up {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+  
+.sign-up__form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+
+

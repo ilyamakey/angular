@@ -1,0 +1,49 @@
+.message {
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #4398e7;
+  }
+  
+  .message__caption {
+    margin-bottom: 30px;
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .message__label {
+    font-size: 1em;
+    line-height: 1em;
+    text-align: justify;
+    color: #ffffff;
+  }
+  
+  .message__textarea {
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  
+  .message__cover {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .message__submit {
+    padding: 15px;
+    width: 100%;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-style: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #49556F;
+    border-color: #2E2C2C;
+    border-radius: 5px;
+    opacity: 0.9;
+  }
+  
+  .message__submit:hover {
+    opacity: 1;
+  }

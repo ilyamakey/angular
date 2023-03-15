@@ -1,0 +1,47 @@
+.success {
+    margin: 0 auto;
+    padding: 30px;
+    height: 100vh;
+    background-color: #4398e7;
+}
+  
+.success__caption {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #fff;
+    text-align: center;
+}
+  
+.success__div {
+    position: relative;
+    height: 300px;
+    padding-bottom: 20px;
+    background-image: url("../../../assets/Img/account.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+  
+.success__link {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #2562DC;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    background-color: #49556F;
+    border: 1px solid #49556F;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+  
+.success__link:hover {
+    opacity: 1;
+}

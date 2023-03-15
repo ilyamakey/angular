@@ -7,6 +7,11 @@ import { ForgotComponent } from "./pages/forgot/forgot.component";
 import { NewUserComponent } from "./pages/newUser/NewUser.component";
 import { MainComponent } from "./pages/main/main.component";
 import { LoginComponent } from "./pages/login/login.component";
+import { SettingsComponent } from './pages/settings/settings.component';
+import { DocumentationComponent } from './pages/documentation/documentation.component';
+import { MessageComponent } from './pages/message/message.component';
+import { SubmitPageComponent } from './pages/submit-page/submit-page.component';
+import { SuccessPageComponent } from './pages/success-page/success-page.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,12 @@ import { LoginComponent } from "./pages/login/login.component";
     ForgotComponent,
     NewUserComponent,
     MainComponent,
-    LoginComponent
+    LoginComponent,
+    SettingsComponent,
+    DocumentationComponent,
+    MessageComponent,
+    SubmitPageComponent,
+    SuccessPageComponent
   ],
   imports: [
     BrowserModule,

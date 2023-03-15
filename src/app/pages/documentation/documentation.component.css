@@ -1,0 +1,21 @@
+.documentation {
+    padding: 20px;
+    height: 100vh;
+    background-color: #4398e7;
+  }
+  
+  .documentation__caption {
+    padding-bottom: 10px;
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .documentation__text {
+    padding-bottom: 10px;
+    font-size: 1em;
+    line-height: 1em;
+    text-align: justify;
+    color: #ffffff;
+  }
