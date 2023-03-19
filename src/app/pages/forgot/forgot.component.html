@@ -1,14 +1,16 @@
 <body>
     <div class="page">
         <header class="header">
-            <a href="#" class="header__link"></a>
+            <a routerLink="/" class="header__link">
+                <img src="assets/Img/back-arrow.svg" alt="back-arrow" class="header__back" width="27">
+            </a>
 
-            <a routerLink="/login" class="header__logo">
-                <img src="/src/assets/Img/logo.png" alt="Ufield Logo" class="header__img" width="100">
+            <a routerLink="/main" class="header__logo">
+                <img src="assets/Img/logo.png" alt="Ufield Logo" class="header__img" width="100">
             </a>
 
             <nav class="nav">
-                <button class="nav__toggle"><img src="/src/assets/Img/menu.png" alt="Menu" width="27" height="25"></button>
+                <button class="nav__toggle"><img src="assets/Img/menu.png" alt="Menu" width="20"></button>
 
                 <ul class="nav__list">
                     <li class="nav__item">
@@ -34,7 +36,8 @@
                     <label for="secret-answer" class="sign-up__label">
                         <input type="text" 
                             name="secret-answer" 
-                            id="secret_answer" 
+                            id="secret_answer"
+                            class="first-screen__input"
                             value="" 
                             maxlength="30"/>
                     </label><br>
@@ -45,7 +48,8 @@
                     <label for="secret-answer" class="sign-up__label">
                         <input type="text" 
                             name="secret-answer" 
-                            id="secret_answer" 
+                            id="secret_answer"
+                            class="first-screen__input"
                             value="" 
                             maxlength="30"/>
                     </label><br>
@@ -56,7 +60,8 @@
                     <label for="secret-answer" class="sign-up__label">
                         <input type="text" 
                             name="secret-answer" 
-                            id="secret_answer" 
+                            id="secret_answer"
+                            class="first-screen__input"
                             value="" 
                             maxlength="30"/>
                     </label><br>
