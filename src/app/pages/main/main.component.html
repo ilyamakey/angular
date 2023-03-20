@@ -2,10 +2,10 @@
   <div class="page">
     <header class="header">
       <div class="settings-bar">
-        <a routerLink="/settings"><img src="assets/Img/settings.png" alt="Settings" width="25" title="Settings Page"></a>
+        <a routerLink='/settings'><img  src="assets/Img/settings.png" alt="Settings" width="25" title="Settings Page"></a>
       </div>
 
-      <a routerLink="/main" class="header__logo">
+      <a routerLink="/" class="header__logo">
         <img src="assets/Img/logo.png" alt="United Logo" class="header__image" width="100" height="30">
       </a>
 
@@ -13,9 +13,6 @@
         <button class="nav__toggle"><img src="assets/Img/menu.png" alt="Menu" width="20"></button>
 
         <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#">Dark/Light Mode</a>
-          </li>
           <li class="nav__item">
             <a routerLink="/documentation">How To Use App</a>
           </li>
@@ -103,8 +100,8 @@
               <h3 class="notepad__caption">Notepad</h3>
               <div class="notepad__container">
                 <div class="notepad__tense">
-                  <p class="notepad__date">20/20/2002</p>
-                  <p class="notepad__time">16:30</p>
+                  <p class="notepad__date">3/3/2023</p>
+                  <p class="notepad__time">4:30</p>
                 </div>
                 <p class="notepad__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptas eius,
                   blanditiis distinctio facere vitae obcaecati ea vel atque aut ipsum minus. Enim culpa ipsa ea eos
@@ -113,8 +110,8 @@
             </section>
 
             <div class="carousel__buttons">
-              <button type="button" class="carousel__button"><p>&larr;</p></button>
-              <button type="button" class="carousel__button">&rarr;</button>
+              <button type="button" class="carousel__button carousel__button--back"></button>
+              <button type="button" class="carousel__button carousel__button--forward"></button>
             </div>
           </section>
 

@@ -1,12 +1,22 @@
+@keyframes cloud-animation {
+  100% {
+    background-position: 0 0;
+  }
+  0% {
+    background-position: 1000px 0;
+  }
+}
+
 .first-screen {
-  padding-top: 130px;
+  padding-top: 230px;
   padding-right: 20px;
   padding-left: 20px;
   height: 100vh;
-  background-image: url("../../../assets/Img/clouds.jpg");
+  background-image: url("../../../assets/Img/clouds.png");
   background-color: #fff;
   background-position: unset;
   background-size: cover;
+  animation: cloud-animation 100s infinite linear alternate;
 }
 
 .first-screen__caption {
@@ -67,4 +77,15 @@
 
 .first-screen__submit:hover {
   opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .first-screen__form {
+    padding: 40px;
+  }
+  .first-screen {
+    padding-top: 250px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
 }

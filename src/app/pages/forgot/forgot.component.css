@@ -1,3 +1,12 @@
+@keyframes cloud-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
 .first-screen {
     padding-top: 130px;
     padding-right: 20px;
@@ -7,9 +16,10 @@
     background-color: #fff;
     background-position: unset;
     background-size: cover;
-}
-
-.first-screen__caption {
+    animation: cloud-animation 100s infinite linear alternate;
+  }
+  
+  .first-screen__caption {
     margin: 0;
     padding: 0;
     margin-bottom: 10px;
@@ -19,27 +29,66 @@
     font-weight: 600;
     color: #D6DBFA;
     text-align: center;
-}
+  }
   
-.first-screen__form {
+  .first-screen__form {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
-}
-
-.sign-up {
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-}
+  }
   
-.sign-up__form {
+  .first-scdreen__label {
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: #212121;
+  }
+  
+  .first-screen__input {
     display: flex;
     flex-direction: column;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 32px;
+    border: 1px solid #2562DC;
+    border-radius: 3px;
+  }
+  
+  .first-scdreen__link {
+    font-size: 12px;
+    font-weight: 600;
+    color: #4455BB;
+  }
+  
+  .first-screen__submit {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    background-color: #49556F;
+    border: 1px solid #49556F;
     border-radius: 5px;
-}
+    opacity: 0.9;
+  }
+  
+  .first-screen__submit:hover {
+    opacity: 1;
+  }
+  
+  @media (min-width: 768px) {
+    .first-screen__form {
+      padding: 40px;
+    }
+    .first-screen {
+      padding-top: 250px;
+      padding-right: 100px;
+      padding-left: 100px;
+    }
+  }
 
 
 
